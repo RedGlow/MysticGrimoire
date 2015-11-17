@@ -1,0 +1,27 @@
+{
+  "name": "mystic-grimoire",
+  "version": "1.0.0",
+  "description": "An application and website to manage the Mystic Forge recipes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedGlow/MysticGrimoire.git"
+  },
+  "keywords": [
+    "gw2",
+    "mystic-forge"
+  ],
+  "author": "Mattia Belletti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedGlow/MysticGrimoire/issues"
+  },
+  "homepage": "https://github.com/RedGlow/MysticGrimoire#readme",
+  "devDependencies": {
+    "check-types": "^4.3.0",
+    "q": "^1.4.1"
+  }
+}
