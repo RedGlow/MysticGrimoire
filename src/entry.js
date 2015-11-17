@@ -27,12 +27,6 @@ function Entry(family, inputs, outputs) {
 	);
 	this.inputs = inputs;
 
-	check.assert.array.of.like(outputs, {
-		'id': 3,
-		'minAmount': 10,
-		'maxAmount': 12,
-		'probability': 0.2
-	});
 	check.apply(outputs,
 		function(entry) {
 			return check.all(check.map(entry, {

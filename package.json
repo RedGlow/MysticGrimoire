@@ -22,6 +22,10 @@
   "homepage": "https://github.com/RedGlow/MysticGrimoire#readme",
   "devDependencies": {
     "check-types": "^4.3.0",
-    "q": "^1.4.1"
+    "csv-parse": "^1.0.0",
+    "google-spreadsheet": "^1.0.1",
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "request": "^2.65.0"
   }
 }
